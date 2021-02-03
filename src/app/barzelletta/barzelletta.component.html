@@ -1,0 +1,14 @@
+<!--
+  Inseiti per fare la modifica con più componenti, componenti non sono implementati all'interno!
+<app-titolo
+ [titolo]="titoloBarzelletta">
+</app-titolo>>
+<app-contenuto
+  [contenuto]="contenutoBarzelletta">
+</app-contenuto>
+-->
+<h2>{{ titoloBarzelletta }}</h2>
+<p>{{ contenutoBarzelletta[0] }}</p>
+<p>{{ contenutoBarzelletta[1] }}</p>
+<p>{{ contenutoBarzelletta[2] }}</p>
+<button (click)="onButtonClicked()">Stampa contenuto su console</button>
